@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import header from './Header'
+import Header from './Header';
 
 class App extends Component {
   constructor(props){
@@ -75,12 +77,8 @@ class App extends Component {
 
     return (
       <div className="App">
-        <header>
-          <h1>ELF Computing</h1>
-          <h3>Laptops</h3>
-          <h5>Customize your laptop</h5>  
-        </header>      
-        <main>
+             < Header />
+               <main>
           <section className="main__form">
             <h3>TECH SPECS AND CUSTOMIZATIONS</h3>
             { features }

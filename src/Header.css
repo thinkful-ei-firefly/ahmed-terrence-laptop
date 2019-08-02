@@ -1,0 +1,13 @@
+  
+  header {
+    background-color: #DDDDDD;
+    padding: 20px;
+    height: 25%;
+  }
+
+  .App-header {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+    
+  }
