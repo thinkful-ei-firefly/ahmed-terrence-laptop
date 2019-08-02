@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import header from './Header'
+import UserForm from './UserForm'
 import Header from './Header';
 
 class App extends Component {
@@ -77,12 +77,9 @@ class App extends Component {
 
     return (
       <div className="App">
-             < Header />
+             <Header />
                <main>
-          <section className="main__form">
-            <h3>TECH SPECS AND CUSTOMIZATIONS</h3>
-            { features }
-          </section>
+          <UserForm features={features} />
           <section className="main__summary">
             <h3>NEW GREENLEAF 2018</h3>
             {summary}
