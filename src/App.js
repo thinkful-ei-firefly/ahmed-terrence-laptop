@@ -82,8 +82,9 @@ class App extends Component {
              <Header />
                <main>
           <UserForm features={features} />
-          <Summary summary={summary} />
-          <Total total={total} />
+          <div><Summary summary={summary} />
+          <Total total={total} /></div>
+          
            
         </main>
       </div>
