@@ -3,6 +3,7 @@ import './App.css';
 import UserForm from './UserForm'
 import Header from './Header';
 import Summary from './Summary';
+import Total from './Total'
 
 class App extends Component {
   constructor(props){
@@ -81,7 +82,8 @@ class App extends Component {
              <Header />
                <main>
           <UserForm features={features} />
-          <Summary summary={summary} total={total}/>
+          <Summary summary={summary} />
+          <Total total={total} />
            
         </main>
       </div>
